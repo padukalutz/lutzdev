@@ -515,12 +515,22 @@ body.dark-theme {
     height: 135px;
     margin-bottom: 1rem;
   }
+
   .profile__perfil {
     width: 120px;
     height: 120px;
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    margin: auto;
   }
+
   .profile__perfil img {
-    width: 90px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
   }
   .profile__profession {
     margin-bottom: 1.5rem;
